@@ -1,0 +1,41 @@
+{
+    "arrays": {
+        "avarage-calculation-Mmystral":{
+            "comando":"go-lisa-0.1/bin/go-lisa -i ../codes/_CATEGORIA_/_NOMEFILE_/_NOMEFILE_.go -o ./output/_CATEGORIA_/_NOMEFILE_/_ANALISI_/ -a ",
+            "analisi":[
+                "parity",
+                "sign"
+            ]
+        },
+        "harmonic-mean-Mmystral":{
+            "comando":"go-lisa-0.1/bin/go-lisa -i ../codes/_CATEGORIA_/_NOMEFILE_/_NOMEFILE_.go -o ./output/_CATEGORIA_/_NOMEFILE_/_ANALISI_/ -a ",
+            "analisi":[
+                "parity"
+            ]
+        },
+        "intersection-Mmystral":{
+            "comando":"go-lisa-0.1/bin/go-lisa -i ../codes/_CATEGORIA_/_NOMEFILE_/_NOMEFILE_.go -o ./output/_CATEGORIA_/_NOMEFILE_/_ANALISI_/ -a ",
+            "analisi":[
+                "parity"
+            ]
+        },
+        "normalizing-Mmystral":{
+            "comando":"go-lisa-0.1/bin/go-lisa -i ../codes/_CATEGORIA_/_NOMEFILE_/_NOMEFILE_.go -o ./output/_CATEGORIA_/_NOMEFILE_/_ANALISI_/ -a ",
+            "analisi":[
+                "parity"
+            ]
+        },
+        "remove-element-Mmystral":{
+            "comando":"go-lisa-0.1/bin/go-lisa -i ../codes/_CATEGORIA_/_NOMEFILE_/_NOMEFILE_.go -o ./output/_CATEGORIA_/_NOMEFILE_/_ANALISI_/ -a ",
+            "analisi":[
+                "parity"
+            ]
+        }
+    },
+    "string": {
+
+    },
+    "sorting": {
+
+    }
+}
