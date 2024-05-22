@@ -1,6 +1,9 @@
 go-lisa-0.1/bin/go-lisa -i ../codes/arrays/avarage-calculation-Mmystral/avarage-calculation-Mmystral.go -o ./output/arrays/avarage-calculation-Mmystral/parity/ -a parity
 go-lisa-0.1/bin/go-lisa -i ../codes/arrays/avarage-calculation-Mmystral/avarage-calculation-Mmystral.go -o ./output/arrays/avarage-calculation-Mmystral/sign/ -a sign
+go-lisa-0.1/bin/go-lisa -i ../codes/arrays/avarage-calculation-Mmystral/avarage-calculation-Mmystral.go -o ./output/arrays/avarage-calculation-Mmystral/taint/ -a taint
 go-lisa-0.1/bin/go-lisa -i ../codes/arrays/harmonic-mean-Mmystral/harmonic-mean-Mmystral.go -o ./output/arrays/harmonic-mean-Mmystral/parity/ -a parity
-go-lisa-0.1/bin/go-lisa -i ../codes/arrays/intersection-Mmystral/intersection-Mmystral.go -o ./output/arrays/intersection-Mmystral/parity/ -a parity
+go-lisa-0.1/bin/go-lisa -i ../codes/arrays/harmonic-mean-Mmystral/harmonic-mean-Mmystral.go -o ./output/arrays/harmonic-mean-Mmystral/interval/ -a intervals
+go-lisa-0.1/bin/go-lisa -i ../codes/arrays/harmonic-mean-Mmystral/harmonic-mean-Mmystral.go -o ./output/arrays/harmonic-mean-Mmystral/sign/ -a sign
+go-lisa-0.1/bin/go-lisa -i ../codes/arrays/intersection-Mmystral/intersection-Mmystral.go -o ./output/arrays/intersection-Mmystral/interval/ -a interval
 go-lisa-0.1/bin/go-lisa -i ../codes/arrays/normalizing-Mmystral/normalizing-Mmystral.go -o ./output/arrays/normalizing-Mmystral/parity/ -a parity
 go-lisa-0.1/bin/go-lisa -i ../codes/arrays/remove-element-Mmystral/remove-element-Mmystral.go -o ./output/arrays/remove-element-Mmystral/parity/ -a parity

@@ -1,17 +1,17 @@
 {
   "warnings" : [ ],
-  "files" : [ "int_main.Average([]int_numbers)_1440127206.html", "js/cose-base.js", "js/cytoscape-3.21.1.min.js", "js/cytoscape-expand-collapse.js", "js/cytoscape-fcose.js", "js/cytoscape-graphml-1.0.6-hier.js", "js/jquery-3.0.0.min.js", "js/layout-base.js", "report.json", "untyped_main.main().html" ],
+  "files" : [ "float64_main.HarmonicMean([]int_numbers)_-1420736179.html", "js/cose-base.js", "js/cytoscape-3.21.1.min.js", "js/cytoscape-expand-collapse.js", "js/cytoscape-fcose.js", "js/cytoscape-graphml-1.0.6-hier.js", "js/jquery-3.0.0.min.js", "js/layout-base.js", "report.json", "untyped_main.main().html" ],
   "info" : {
     "cfgs" : "2",
-    "duration" : "138ms",
-    "end" : "2024-05-21T22:06:59.850+02:00",
-    "expressions" : "27",
+    "duration" : "150ms",
+    "end" : "2024-05-21T22:07:04.891+02:00",
+    "expressions" : "50",
     "files" : "9",
     "globals" : "0",
     "members" : "10",
     "programs" : "1",
-    "start" : "2024-05-21T22:06:59.712+02:00",
-    "statements" : "12",
+    "start" : "2024-05-21T22:07:04.741+02:00",
+    "statements" : "17",
     "units" : "2",
     "version" : "0.1b9",
     "warnings" : "0"
@@ -33,6 +33,6 @@
     "syntacticChecks" : "",
     "useWideningPoints" : "true",
     "wideningThreshold" : "5",
-    "workdir" : "./output/arrays/avarage-calculation-Mmystral/parity/"
+    "workdir" : "./output/arrays/harmonic-mean-Mmystral/sign/"
   }
 }
