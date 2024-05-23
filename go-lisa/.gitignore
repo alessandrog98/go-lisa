@@ -25,7 +25,6 @@ gradle-app.setting
 *.pydevproject
 .project
 .metadata
-bin/**
 tmp/**
 tmp/**/*
 *.tmp
@@ -46,5 +45,4 @@ local.properties
 # UML diagrams
 diagrams/
 /go-outputs/
-/bin/
 /gradle.properties
