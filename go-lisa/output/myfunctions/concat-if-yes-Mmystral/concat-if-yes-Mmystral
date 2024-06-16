@@ -1,0 +1,20 @@
+package main
+
+import (
+    "fmt"
+)
+
+func concat(s1 string, i int, s2 string) string {
+    if len(s1) > 10 {
+        s1 = s1[0:10]
+    }
+    if s2 == "yes" {
+        return s1 + fmt.Sprint(i)
+    }
+    return s1
+}
+
+func main() {
+    fmt.Println(concat("hello world", 5, "yes")) // prints hello worl5
+    fmt.Println(concat("world", 3, "no"))       // prints world
+}

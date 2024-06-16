@@ -1,0 +1,20 @@
+ //BEGIN
+ package main
+
+ import (
+     "fmt"
+     "strconv"
+ )
+ 
+ func main() {
+     myFunc("hello", 123, "yes")
+     myFunc("world", 456, "no")
+ }
+ 
+ func myFunc(str1 string, num int, str2 string) string {
+     if str2 == "yes" {
+         return str1 + strconv.Itoa(num)
+     }
+     return str1
+ }
+ //END

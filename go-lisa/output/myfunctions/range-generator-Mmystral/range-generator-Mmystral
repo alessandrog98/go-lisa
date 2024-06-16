@@ -1,0 +1,39 @@
+package main
+
+import (
+    "fmt"
+)
+
+func generateAndCheckRange(start int, end int) []int {
+    if start > end {
+        start, end = end, start
+    }
+    slice := make([]int, 0, end-start+1)
+    for i := start; i <= end; i++ {
+        slice = append(slice, i)
+    }
+    negativeCount := 0
+    positiveCount := 0
+    for _, num := range slice {
+        if num < 0 {
+            negativeCount += 1
+        } else if num > 0 {
+            positiveCount += 1
+        }
+    }
+    result := ""
+    switch {
+    case negativeCount == len(slice):
+        result = "all numbers are negative"
+    case positiveCount == len(slice):
+        result = "all numbers are positive"
+    default:
+        result = "numbers have mixed signs"
+    }
+    return slice
+}
+
+func main() {
+    slice := generateAndCheckRange(-2, 5)
+    fmt.Println("Generated Slice:", slice)
+}

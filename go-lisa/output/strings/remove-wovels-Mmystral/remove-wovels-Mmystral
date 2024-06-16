@@ -1,0 +1,20 @@
+//BEGIN
+package main
+
+import (
+"fmt"
+"strings"
+)
+func removeVowels(s string)(result string){
+	for _,r := range s {
+		if !strings.ContainsRune("aeiouAEIOU", r) {
+		result += string(r)
+		}
+	}
+return result
+}
+
+func main(){
+	fmt.Println(removeVowels("abc def"))
+}
+//END

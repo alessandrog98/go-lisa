@@ -1,0 +1,18 @@
+//BEGIN
+package main
+
+func ReplaceAll(str string, oldChar rune, newChar rune) string {
+	bytes := []byte(str)
+		for i, b := range bytes {
+			if b == oldChar {
+				bytes[i] = newChar
+			}
+		}
+	return string(bytes)
+}
+//END
+func main() {
+input := "abc def"
+output := ReplaceAll(input, 'a', 'b')
+fmt.Println(output)
+}

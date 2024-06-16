@@ -1,0 +1,29 @@
+package main
+
+import (
+    "fmt"
+)
+
+func sumToBinaryString(a, b []int) string {
+    var res string
+    i, j := 0, len(b)-1
+    for i < len(a) {
+        sum := a[i] + b[j]
+        if sum > 0 && sum%2 == 0 {
+            res += "1"
+        } else if sum > 0 && sum%2 != 0 {
+            res += "0"
+        } else {
+            res += "10"
+        }
+        i++
+        j--
+    }
+    return res
+}
+
+func main() {
+    a := []int{1, 2, 3}
+    b := []int{-3, -2, -1}
+    fmt.Println(sumToBinaryString(a, b))
+}

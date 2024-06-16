@@ -1,4 +1,9 @@
-.metadata
+*.js
+*.html
+*.json
+*.go
+*.txt
 .DS_Store
 go-lisa/go-lisa-0.1/bin/go-lisa
 go-lisa/go-lisa-0.1/bin/go-lisa.bat
+go-lisa/output/arrays/average-calculation-Mc4ai/parity/js/cose-base.js

@@ -1,0 +1,27 @@
+package main
+
+func oddEvenNeg(arr1 []int, arr2 []int) string {
+    if len(arr1) != len(arr2) {
+        return ""
+    }
+    var result string
+    for i := 0; i < len(arr1); i++ {
+        sum := arr1[i] + arr2[len(arr2)-1-i]
+        if sum > 0 {
+            if sum%2 == 0 {
+                result += "1"
+            } else {
+                result += "0"
+            }
+        } else {
+            result += "10"
+        }
+    }
+    return result
+}
+
+func main() {
+    a := []int{1, 2, 3}
+    b := []int{-3, -2, -1}
+    fmt.Println(oddEvenNeg(a, b))
+}

@@ -1,0 +1,31 @@
+package main
+
+import (
+    "fmt"
+    "strings"
+)
+
+func processArray(arr []int, str1 string, str2 string, num int) string {
+    if len(arr) != len(str1) {
+        return ""
+    }
+    result := make([]byte, len(str1))
+    for i, c := range str1 {
+        if arr[i] > num {
+            result[i] = byte(c)
+        } else {
+            result[i] = '0'
+        }
+    }
+    return string(result) + str2
+}
+
+func main() {
+    arr := []int{1, 3, 5, 7, 9}
+    str1 := "abcde"
+    str2 := "-test"
+    num := 5
+
+    result := processArray(arr, str1, str2, num)
+    fmt.Println(result)
+}

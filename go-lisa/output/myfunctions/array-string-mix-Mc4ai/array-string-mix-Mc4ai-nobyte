@@ -1,0 +1,27 @@
+//BEGIN
+package main
+
+import (
+    "fmt"
+)
+
+func buildString(arr []int, s string, fixedString string, threshold int) string {
+    if len(arr) != len(s) {
+        return ""
+    }
+    var str string
+    for i := 0; i < len(arr); i++ {
+        if arr[i] > threshold {
+            str += string(s[i])
+        }
+    }
+    return str + fixedString
+}
+
+func main() {
+    arr := []int{1, 2, 3, 4, 5}
+    s := "abcde"
+    fixedString := "XYZ"
+    threshold := 3
+    fmt.Println(buildString(arr, s, fixedString, threshold))
+}

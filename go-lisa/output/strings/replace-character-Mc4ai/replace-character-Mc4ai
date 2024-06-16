@@ -1,0 +1,17 @@
+//BEGIN
+package main
+
+
+func replaceChar(s string, oldRune, newRune rune) string {
+    rep := strings.ReplaceAll(s, string(oldRune), string(newRune))
+    return rep
+}
+
+func main() {
+    s := "abc def"
+    oldRune := 'a'
+    newRune := 'b'
+    result := replaceChar(s, oldRune, newRune)
+    fmt.Println(result) // Output: "bcdef"
+}
+//END
